@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luffy Hero Section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+
+      header {
+        height: 100vh;
+        position: relative;
+
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(Luffy\ 3000x2000.jpg);
+        background-size: cover;
+        color: #e7f5ff;
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+      }
+
+      .logo {
+        width: 120px;
+        height: 40px;
+      }
+
+      .navigation-bar a {
+        text-decoration: none;
+        color: #e7f5ff;
+        margin-right: 15px;
+      }
+
+      .navigation-bar a:last-child {
+        margin-right: 0;
+      }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        /* text-align: center; */
+      }
+
+      .header-container-inner {
+        width: 35%;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #1864ab;
+        color: #e7f5ff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
+      }
+
+      .crew {
+        color: #1864ab;
+      }
+
+      .footer {
+        background-color: #f7f7f7;
+        color: #444;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .footer-content {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 50px;
+      }
+
+      .footer-section {
+        flex: 1;
+        padding: 10px;
+      }
+
+      .footer-section h2 {
+        margin-bottom: 15px;
+        color: #1864ab;
+      }
+
+      .footer-section p,
+      .footer-section ul,
+      .footer-section li {
+        color: #444;
+      }
+
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-section ul li {
+        margin-bottom: 10px;
+      }
+
+      .footer-section ul li a {
+        text-decoration: none;
+        color: #1864ab;
+        transition: color 0.3s;
+      }
+
+      .footer-section ul li a:hover {
+        color: #444;
+      }
+
+      .footer-bottom {
+        text-align: center;
+        padding: 10px 0;
+        border-top: 1px solid #444;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div><img src="one piece.png" alt="" class="logo" /></div>
+        <div class="navigation-bar">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Meet the Crew</a>
+          <a href="#">Adventures</a>
+          <a href="#">Join Us</a>
+          <a href="#">Gallery</a>
+          <a href="#">Shop</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>Join the Straw Hat Pirates: Adventure Awaits</h1>
+          <p>
+            Ahoy! The Straw Hat Pirates, led by Monkey D. Luffy, are recruiting!
+            If you have a spirit for adventure and a unique skill, join us on
+            the Thousand Sunny. Together, we'll explore new territories, find
+            hidden treasures, and chase the legendary One Piece. Come aboard and
+            make history with us on the high seas
+          </p>
+          <a href="#" class="btn">Join Now</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2 class="crew">Meet the Crew</h2>
+        <p>
+          The Straw Hat Pirates are a diverse and dynamic crew led by Captain
+          Monkey D. Luffy. Key members include Zoro, the master swordsman; Nami,
+          the brilliant navigator; Usopp, the sharpshooter; Sanji, the skilled
+          cook; Chopper, the talking doctor reindeer; Robin, the archaeologist;
+          Franky, the shipwright; Brook, the musician; and Jinbe, the helmsman.
+          United by their dreams and unwavering loyalty to each other, they sail
+          aboard the Thousand Sunny, seeking adventure and the legendary
+          treasure, One Piece.
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>
+            The Straw Hat Pirates are a crew of pirates led by Monkey D. Luffy.
+            They are known for their adventurous spirit and diverse, talented
+            members.
+          </p>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Meet the Crew</a></li>
+            <li><a href="#">Adventures</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <p>Email: info@strawhatpirates.com</p>
+          <p>Phone: +123-456-7890</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 One Piece. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
